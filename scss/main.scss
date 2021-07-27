@@ -6,6 +6,12 @@
 @import '../node_modules/bootstrap/scss/_variables';
 
 // add new variables in variables file without modify the variable file
+$custom-theme-colors:(
+"pinku-graident": linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%),
+"pinku-text-color": #FF136F,
+)
+
+$theme-colors: map-marge($custom-theme-colors, theme-colors);
 
 
 // import bootstrap
